@@ -147,7 +147,7 @@ public class Bank implements Serializable {
 	}
 
 	public void setAccounts(BankAccount[] accounts) {
-		this.accounts = newAccounts;
+		this.accounts = accounts;
 	}
 	
 }
