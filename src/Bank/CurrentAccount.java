@@ -13,7 +13,7 @@ public class CurrentAccount extends BankAccount {
 		super(name, balance, 5000);
 		this.tradeLicenseNumber= tradeLicenseNumber;
 		if (balance < 5000) {
-			throw new InsufficientBalanceException("Insufficient Balance: Minimum balance of 5000 is required.");
+			throw new InsufficientBalanceException(" Minimum balance of 5000 is required.");
 		}
 		// this.type = "Current Account";
 	}
